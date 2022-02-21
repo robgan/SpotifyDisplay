@@ -1,0 +1,55 @@
+.spotify {
+  text-align: center;
+  /* background-color: dodgerblue; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.flexbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: dimgray; */
+}
+
+.flexitem{
+  /* background-color: deepskyblue; */
+  width: auto;
+  padding: 10px;
+  text-align: left;
+}
+
+#songName, #artists{
+  font-size: larger;
+
+}
+
+div{
+  margin: 10px;
+  width: 100%;
+}
+
+p, button, a{
+  color: white ;
+  margin: 5px;
+  font: inherit;
+}
+
+button, a{
+  border-radius: 25px;
+  border: none;
+  padding: 10px;
+  background-color: #1DB954;
+  text-decoration: none; 
+}
+
+button:hover, a:hover{
+  background-color: lavender;
+  cursor: pointer;
+}
+
+img{
+  height: 450px;
+}

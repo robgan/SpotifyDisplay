@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: proxima_nova,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #191414;
+  background: -webkit-linear-gradient(#1DB954, #191414) fixed; 
+  background: linear-gradient(#1DB954, #191414) fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
